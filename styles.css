@@ -666,7 +666,9 @@ footer {
         - scale the background image to 110% 
         - add the wood background texture from the images folder
 */
-#pattern1 {}
+#pattern1 {
+    background: var(--light-gray) 110% url("images/wood.png");
+}
 
 /* For the second div, the pattern is from from Hero Pattern. These actually give you SVG code to paste into your CSS */
 #pattern2 {
@@ -721,14 +723,18 @@ footer {
     TO DO: add styles to the image with an ID of dog-house in this section that will:
         - float the image to the right
 */
-#dog-house {}
+#dog-house {
+    float: right;
+}
 
 /* When you use floats, you have to be sure to clear them so that the rest of your page after the floats displays normally. Let's use the display section to clear the floats (because it is the next tag outside of our container in the HTML) */
 /* 
     TO DO: add styles to the display section that will:
         - clear any floats
 */
-#section9 {}
+#section9 {
+    clear: both;
+}
 
 /* ------------- SECTION 9 STYLES ---------------- */
 
