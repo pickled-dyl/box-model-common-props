@@ -602,7 +602,9 @@ footer {
             - bottom: 1rem
             - left: 0
 */
-#section4 p:last-of-type {}
+#section4 p:last-of-type {
+    margin: 1rem 0;
+}
 
 /* ------------- SECTION 5 STYLES ---------------- */
 /* Background image default behavior */
@@ -637,7 +639,9 @@ footer {
         - center the image pattern in the container
         - add the puppy-photo as a repeating background to the container
 */
-#bg-img-3 {}
+#bg-img-3 {
+    background: var(--lt-blue) center url("images/puppy-photo.jpg");
+}
 
 /* For the fourth div, let's style this like the second div, but let's change the height of the div to 100px, so it fits the height of the image. It will make it look like the image and div are the same height */
 #section6 #bg-img-4 {
